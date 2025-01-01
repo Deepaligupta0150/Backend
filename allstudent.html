@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Student</title>
+</head>
+
+<body>
+    <h1>all student data</h1>
+
+    <script>
+        document.getElementsByTagName("h1")[0].innerHTML = "SACHIN GARG";
+        fetch("http://localhost:3000")
+            .then((responce) => { return responce.json() })
+            .then((data) => {
+                console.log(data);
+
+                const table = document.createElement('table');
+                const tableBody = document.createElement('tbody');
+
+                data.forEach(person => {
+                    const row = document.createElement('tr');
+                    const nameCell = document.createElement('td');
+                    const rollnoCell = document.createElement('td');
+                    const emailCell = document.createElement('td');
+                    const phonenoCell = document.createElement('td');
+                    const courseCell = document.createElement('td');
+                    const courseidCell = document.createElement('td');
+                    const gendercell= document.createElement('td');
+                    const coursetypeCell = document.createElement('td');
+                    // const howoftendoyouattendtheclasscell = document.createElement('td');
+
+
+
+                    nameCell.textContent = person.name;
+                    rollnoCell.textContent = person.rollno;
+                    emailCell.textContent = person.email;
+                    phonenoCell.textContent = person.phoneno;
+                    courseCell.textContent = person.course;
+                    courseidCell.textContent = person.courseid;
+                    genderCell.textContent = person.gender;
+                    coursetypeCell.textContent = person.coursetype;
+                    // howoftendoyouattendtheclassCell.textContent = person.course;
+
+
+                    row.appendChild(nameCell);
+                    row.appendChild(rollnoCell);
+                    row.appendChild(emailCell);
+                    row.appendChild(phonenoCell);
+                    row.appendChild(courseCell);
+                    row.appendChild(courseidCell);
+                    row.appendChild(genderCell);
+                    row.appendChild(coursetypeCell);
+                    // row.appendChild(howoftendoyouattendtheclasscell);
+                    tableBody.appendChild(row);
+                });
+
+                table.appendChild(tableBody);
+                document.body.appendChild(table);
+            })
+    </script>
+</body>
+
+</html>

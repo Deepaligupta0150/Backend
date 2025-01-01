@@ -1,0 +1,85 @@
+[
+    {
+        "name": "vishal",
+        "email": "vishal@gmail.com"
+    },
+    {
+        "name": "amit",
+        "email": "amit@gmail.com"
+    },
+    {
+        "name": "sudeep",
+        "email": "s@gmail.com"
+    },
+    {
+        "name": "sudeep ja",
+        "email": "s@gmail.com"
+    },
+    {
+        "name": "raghav",
+        "email": "raghva@gmail.com"
+    },
+    {
+        "name": "satyam",
+        "email": "satyam@gmail.com"
+    },
+    {
+        "name": "ABC",
+        "email": "ABC@test.com"
+    },
+    {
+        "name": "Deepali",
+        "email": "deepali0150.be23@chitkara.edu.in"
+    },
+    {
+        "gender": "Female",
+        "Course Type": "Computer Science"
+    },
+    {
+        "gender": "Female",
+        "Course Type": "Computer Science"
+    },
+    {
+        "gender": "Female",
+        "Course Type": "Computer Science"
+    },
+    {
+        "gender": "Female",
+        "Course Type": "Computer Science"
+    },
+    {
+        "gender": "Male",
+        "Course Type": "Computer Science"
+    },
+    {
+        "name": "fdghj",
+        "rollno": "2310990150",
+        "emailid": "Deepali@gmail.com",
+        "phoneno": "7890634526",
+        "course": "Java",
+        "courseid": "vdghbs",
+        "gender": "Female",
+        "Course Type": "Computer Science"
+    },
+    {
+        "name": "vgjhs",
+        "rollno": "48651",
+        "emailid": "deepali@gmail.com",
+        "phoneno": "1234567897",
+        "gender": "Female",
+        "course": "Java",
+        "courseid": "cfgvhbjn",
+        "Course Type": "Computer Science"
+    },
+    {
+        "name": "cfvghb",
+        "rollno": "985623",
+        "emailid": "f@gmail.com",
+        "phoneno": "7894561230",
+        "gender": "Male",
+        "course": "Java",
+        "courseid": "cfgvhbjn",
+        "Course Type": "Robotics",
+        "performance": "Poor"
+    }
+]
